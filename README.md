@@ -31,16 +31,10 @@ Below are some of the key features used in this analysis:
 ## Methodology
 - **Exploratory Data Analysis (EDA):**
    - **Feature Distribution:** Examined the distribution of key features such as age, savings account balances, and educational loan amounts.
-   - **Correlation Matrix:** Analyzed the correlation between various features and the savings potential. Most correlations were found to be mediocre or low, suggesting that individual features may not strongly influence savings behavior in isolation.
-![image](https://github.com/user-attachments/assets/0086753c-c6cc-48fe-b564-37793ba704cd)
-
-   - **Cluster Analysis:** Segmented individuals into distinct clusters based on financial behavior, identifying patterns in savings behavior across age groups and financial profiles.
 
 - **Modeling:**
    - **Base Models:** Multiple regression models were tested, including linear regression, decision trees, and random forest models.
    - **Best Model:** Random Forest Regression emerged as the best model, offering the highest predictive accuracy.
-   - **Feature Importance:** The model highlighted **age** and **checking account balance** as the most significant predictors of individual savings.
-![image](https://github.com/user-attachments/assets/904884f4-ffe8-43b3-b1f0-16fbebd23a99)
 
 
 - **Evaluation Metrics:**
@@ -56,7 +50,6 @@ Below are some of the key features used in this analysis:
   
 - **Key Insights:**
   - **Age and Checking Account Balance:** These were the most influential factors in predicting savings potential. Older individuals and those with higher checking account balances tended to have higher savings.
-  - **Clusters Identified:** Cluster analysis revealed distinct groups, including younger individuals with lower savings and older individuals with more substantial savings.
   - **Residual Patterns:** Residuals analysis indicated a potential bias in predicting savings for low-income individuals, suggesting areas for further model refinement.
 
 ## Implications
