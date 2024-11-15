@@ -35,6 +35,8 @@ Below are some of the key features used in this analysis:
 - **Modeling:**
    - **Base Models:** Multiple regression models were tested, including linear regression, decision trees, and random forest models.
    - **Best Model:** Random Forest Regression emerged as the best model, offering the highest predictive accuracy.
+   - **Feature Importance:** The model highlighted **age** and **checking account balance** as the most significant predictors of individual savings.
+![image](https://github.com/user-attachments/assets/904884f4-ffe8-43b3-b1f0-16fbebd23a99)
 
 
 - **Evaluation Metrics:**
